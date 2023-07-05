@@ -10,10 +10,10 @@ function App() {
     })
   }
   return (
-    <div>
+    <React.Fragment>
       <AddUser onAddUser={addUserHandeler} />
       <UserList users = {userList} />
-    </div>
+    </React.Fragment>
   );
 }
 export default App;
